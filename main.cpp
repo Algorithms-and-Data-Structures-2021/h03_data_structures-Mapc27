@@ -14,6 +14,7 @@ int main() {
   queue.Enqueue(Element::BMW);
   for(int i = 0; i < 3; i++) {
       queue.Dequeue();
+
   }
   return 0;
 }
