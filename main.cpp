@@ -12,7 +12,8 @@ int main() {
   queue.Enqueue(Element::BMW);
   queue.Enqueue(Element::BMW);
   queue.Enqueue(Element::BMW);
-//  queue.Dequeue();
-  queue.Clear();
+  for(int i = 0; i < 3; i++) {
+      queue.Dequeue();
+  }
   return 0;
 }

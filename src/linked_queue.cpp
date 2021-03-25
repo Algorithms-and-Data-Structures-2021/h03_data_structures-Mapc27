@@ -27,7 +27,6 @@ void LinkedQueue::Dequeue() {
   // TODO: напишите здесь свой код ...
   if(size_ == 1){
       delete front_;
-      delete back_;
       front_ = nullptr;
       back_ = nullptr;
   }
